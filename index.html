@@ -2,23 +2,43 @@
 <html>
     <head>
         <title>Cyberus Securities</title>
-        <link rel="stylesheet" href="css/styles.css">
+        <link href="src/css/bootstrap.min.css" rel="stylesheet">
+        <link href="src/css/styles.css" rel="stylesheet">
     </head>
     <body>
-        <div id="highlight">   
-            <div id="small_space"></div>
-            <a class="home" href="index.html">Home</a>
-            <span><a id="middle" href="about.html">About</a></span>
-            <span><a id="middle" href="https://github.com/WhiteHatCyberus">Github</a></span>
-            <div id="big_space"></div>
-            <img id="homel" src="images/CYBERUS.png" alt="logo"><p id="homet">HOME</p>
-            <p class="homeb">Creating Solutions since 2022. This website will undergo improvements with the pace I learn web development frameworks. Built with basic HTML, CSS.</p>
-            <div id="big_space"></div>
-            <img id="workl" src="images/DARK-MATTER.gif" alt="logo"><a id="workt" href="works.html">WORKS</a>
-            <p class="workb">Primarily, I focus on cybersecurity automation and solution tools, but also have past experience in deep learning, computer vision and artificial intelligence projects.</p>
+        <div class="container">
+            <div class="header">
+                <div class="row">
+                    <div class="col-12 col-lg-6 hbox"><a class="navtog" href="#">Home</a></div>
+                    <div class="col-12 col-lg-6 hbox"><a class="navtog" href="#">About</a></div>
+                    <div class="col-12 col-lg-6 hbox"><a class="navtog" href="https://github.com/WhiteHatCyberus">GitHub</a></div>
+                </div>
+            </div>
         </div>
-        <img id="lba" src="images/line-break.gif" alt="line-break-animation"/>
-        <p id="quote"><i>The sea does not like to be restrained.</i></p>
-        <p id="qauthor"> - Rick Riordan, The Lightning Thief</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h1><a id="heading" href="#">HOME</a></h1>
+                    <p id="content">Creating Solutions since 2022. This website will undergo improvements with the pace I learn web development frameworks. Built with basic HTML, CSS.</p> 
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img id="media" src="images/CYBERUS.png" alt="logo">
+                </div>                     
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img src="images/DARK-MATTER.gif" width="800px" height="620px" alt="ANIMATION">
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h1><a id="heading" href="works.html">WORKS</a></h1>
+                    <p id="content">Primarily, I focus on cybersecurity automation and solution tools, but also have past experience in deep learning, computer vision and artificial intelligence projects.</p> 
+                </div>
+            </div>
+        </div>
+            <img src="images/line-break.gif" alt="lb" style="width:100%;">
+                <p id="quote"><i>The sea does not like to be restrained.</i></p>
+            <p id="qauthor"> - Rick Riordan, The Lightning Thief</p> 
+        
+        <script src="src/js/bootstrap.bundle.min.js"></script>  
         </body>
     </html>
