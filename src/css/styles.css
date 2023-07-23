@@ -1,39 +1,28 @@
-div.hbox, a.navtog{
-    width:425px;
-    text-align: center;
-    color:white;
+a.home_tog, a.about_tog,a.github_tog{
+    color: black;
     text-transform: uppercase;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
-    margin-top: 40px;
+    color: white;
 }
-div.hbox:hover, a.content:hover{
-    color: rgb(255, 255, 255);
+a.home_tog:hover, a.about_tog:hover,a.github_tog:hover{
     text-decoration: underline;
 }
-div.header{
-    margin-bottom: 15%;
+.header{
+    height: 200px;
+    padding-top: 80px;
 }
+
 body{
     background-color: rgba(0, 0, 0, 0.975);
 }
-a#heading{
-    color: grey;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px;
-    text-decoration: none;
-    margin-left:15%;
-    margin-bottom: 20px;
+.content{
+    padding: 80px;
 }
-a#heading:hover{
-        text-decoration: underline;
-        color: white;
-    }
-p#content{
+.home_body p, .work_body p{
+
     color: grey;
     text-transform: capitalize;
     text-decoration: none;
@@ -41,27 +30,56 @@ p#content{
     font-size: 25px;
     font-weight: lighter;
     text-align: justify;
-    width: 550px;
-    margin-left: 5%;
+    padding: 20px;
 }
-p#content:hover{
-    color: white;
-}
-img#media{
-    width: 720px;
-    height: 720px;
-}
-img#lba{
-    width: 100%;
-
+.custom-border-bottom {
+    border-bottom: 2px solid rgb(17, 17, 17);
 }
 
-#quote{
-    color: white;
-    font-size: large;
-    margin-left: 40%;
+h1 a{
+    color: grey;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-decoration: none;
 }
-p#qauthor{
-    color: white;
-    margin-left: 50%;
+
+.home_card{
+    margin-bottom: 100px;
 }
+h1 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.home_body p:hover, .work_body p:hover{
+    color: white;
+}
+.work_card{
+    margin-bottom: 50px;
+}
+.image-text-container {
+    position: relative;
+  }
+
+  .centered-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .centered-text p i{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+  }
+  .centered-text p.author{
+    font-size: 30px;
+    text-align: right;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+  }
