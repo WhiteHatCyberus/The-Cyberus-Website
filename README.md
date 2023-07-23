@@ -2,13 +2,14 @@
 This is more of a portofolio site which I will be building from scratch using Javascript right from the basic html, css.
 
 
-![Screenshot 2023-07-19 at 23-40-46 Cyberus Securities](https://github.com/WhiteHatCyberus/The-Cyberus-Website/assets/70995581/06bed206-415b-4220-9040-b8a62c09c778)
-![Screenshot 2023-07-19 at 23-42-29 WORKS](https://github.com/WhiteHatCyberus/The-Cyberus-Website/assets/70995581/5b8b8b77-071b-4f14-8fda-d3d6f53ebf7e)
+![Screenshot 2023-07-23 at 23-58-00 White Hat Cyberus](https://github.com/WhiteHatCyberus/The-Cyberus-Website/assets/70995581/9840adf8-114f-4996-a11c-3aecc4c1d764)
+
+
 
 - Mobile Responsiveness
 
-![Screenshot 2023-07-22 at 17-42-42 Cyberus Securities](https://github.com/WhiteHatCyberus/The-Cyberus-Website/assets/70995581/da07bba1-1f52-4e88-8bfd-79bb9c8f7345)
-![Screenshot from 2023-07-22 17-44-04](https://github.com/WhiteHatCyberus/The-Cyberus-Website/assets/70995581/d12d14ea-af3d-4470-a4f5-319e004cfa9a)
+![Screenshot 2023-07-23 at 23-57-46 White Hat Cyberus](https://github.com/WhiteHatCyberus/The-Cyberus-Website/assets/70995581/4c2305b6-99c6-4e28-9b70-8789ad5d7375)
+
 
 
 # Frameworks And Technologies used:
