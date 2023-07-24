@@ -1,111 +1,78 @@
-body{
-    background-color: rgb(0, 0, 0);
-}
-#small_space{
-height: 40px;
-}
-#big_space{
-    height: 120px;
-    }
-a.home{
-    color: rgb(229, 228, 226);
+a.home_tog, a.about_tog,a.github_tog{
+    color: black;
     text-transform: uppercase;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
-    margin-left:20%
-}
-a.home:hover{
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    
-}
-a#middle{
-
-    color: rgb(229, 228, 226);
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-left: 30%;
-
-}
-a#middle:hover{
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-}
-
-
-#highlight{
-    border-color: black;
-    border-width: 50px;
-}
-p#workt{
-    color: grey;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px;
-    font-weight: bold;
-    height: fit-content;
-    margin: auto;
-    margin-left: 15%;
-    
-}
-p#workt:hover{
-    text-decoration: underline;
     color: white;
 }
-#workl{width: 750px;
-    height: 620px;
-    float: right;
-    margin-left:2px;
-
+a.home_tog:hover, a.about_tog:hover,a.github_tog:hover{
+    text-decoration: underline;
 }
-#workpara{
-    color:grey;
+.header{
+    height: 200px;
+    padding-top: 80px;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.980);
+}
+.content{
+    padding: 120px;
+}
+.work_body p{
+
+    color: grey;
     text-transform: capitalize;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 27px;
-    font-weight: lighter;
+    font-family: Graphik,Arial,system-ui,-apple-system,blinkmacsystemfont,Segoe UI,roboto,ubuntu,Helvetica Neue,oxygen,cantarell,sans-serif;
+    font-size: 25px;
     text-align: justify;
-    width: 600px;
-    margin-left: 10%;
+    padding-top: 15px;
 }
-#workpara:hover{
-    color: white;
+.custom-header-bottom {
+    border-bottom: 2px solid rgb(17, 17, 17);
 }
-a#snortt{
+
+.custom-header-bottom:hover{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.26);
+}
+.work_body{
+    
+    padding:1% 15% 5% 15%;
+}
+
+h1 a{
     color: grey;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    height: fit-content;
-    margin: auto;
-    margin-left: 15%;
-    
+    font-family: Graphik,Arial,system-ui,-apple-system,blinkmacsystemfont,Segoe UI,roboto,ubuntu,Helvetica Neue,oxygen,cantarell,sans-serif;
+    font-size: 100px;
 }
-a#snortt:hover{
+
+h1 a:hover{
     text-decoration: underline;
     color: white;
 }
-
-#snortl{width: 600px;
-    height: 420px;
-    float: left;
-    margin-left:15%;
-}
-#snortb{
+.work_body p:hover{
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    width:600px;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.74);
+    border-color: grey;
+    padding: 10px;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: justify;
-    margin-left: 55%;
-    
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+h2.card-title, p.card-text{
+    color: white;
+}
+a{
+    text-decoration: none;
 }
