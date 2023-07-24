@@ -1,24 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>WORKS</title>
-        <link rel="stylesheet" href="src/css/works.css">
+        <title>White Hat Cyberus</title>
+        <link href="src/css/bootstrap.min.css" rel="stylesheet">
+        <link href="src/css/works.css" rel="stylesheet">
     </head>
     <body>
-        <div id="highlight">   
-            <div id="small_space"></div>
-            <a class="home" href="index.html">Home</a>
-            <span><a id="middle" href="about.html">About</a></span>
-            <span><a id="middle" href="https://github.com/WhiteHatCyberus">Github</a></span>
-            <div id="big_space"></div>
-            <img id="workl" src="images/gear.gif" alt="logo"><p id="workt">WORKS</p>
-            <p id="workpara">Incase you didn't come here through the homepage, I am a cybersecurity researcher specialised in cybersecurity automation and solution tools, while doing previous projects around cryptography, artificial intelligence and computer vision. </p>
-            <div id="big_space"></div>
-            <div id="big_space"></div>
-            <div id="small_space"></div>
-            <img id="snortl" src="images/SNORT.png" alt="logo"><a id="snortt" href="https://github.com/WhiteHatCyberus/SNORT-GUI">1. SNORT-GUI</a>
-            <p id="snortb">SNORT GUI is a blueteam application that provides a GUI and a effective system that processes large amounts of packets in the network. Used for forensic analysis that aids incident handling and analysis.</p>
-            <div id="big_space"></div>
+        <div class="container-fluid">
+            <div class="header custom-header-bottom">
+                <div class="row">
+                    <div class="col-12 col-lg-4 text-center">
+                        <a class="home_tog" href="index.html">Home</a>
+                    </div>
+                    <div class="col-12 col-lg-4  text-center">
+                        <a class="about_tog" href="maintainence.html">About</a>
+                    </div>
+                    <div class="col-12 col-lg-4 text-center">
+                        <a class="github_tog" href="https://github.com/WhiteHatCyberus">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="work_body text-center">    
+                    <h1><a href="works.html">WORKS</a></h1>
+                    <p>Incase you didn't come here through the homepage, I am a security researcher specialised in cybersecurity automation and solution tools, while doing previous projects around cryptography, artificial intelligence and computer vision.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                <a href="https://github.com/WhiteHatCyberus/SNORT-GUI">        
+                    <div class="card">
+                        <img src="images/snort.png" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">SNORT IDS <span class="badge bg-primary">DISCONTINUED</span></h2>
+                            <p class="card-text">SNORT GUI is a blueteam application that provides a GUI and a effective system that processes large amounts of packets in the network. Used for forensic analysis that aids incident handling and analysis.</p>
+                        </div>
+                    </div>
+                </a>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <a href="https://github.com/WhiteHatCyberus/Sign-Language-to-Text-Translator-Using-Opencv-Tensorflow-Object-detection-CNN-and-Machine-Learning">
+                        <div class="card">
+                            <img src="images/ASL.png" width="600px" height="327px" class="card-img-top">   
+                            <div class="card-body">
+                                <h2 class="card-title">American Sign Language to Text Translator</h2>
+                                <p class="card-text">A deep learning project where we employ labellImg to annotate and classify objects using real time recorded hand images for the datasets, via Convolutional Neural Networks.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <a href="https://github.com/WhiteHatCyberus/Student-TimeTable-Management-System">
+                        <div class="card">
+                            <img src="images/dbms.png" width="600px" height="327px" class="card-img-top">
+                            <div class="card-body">
+                                <h2 class="card-title">Student - Teacher DBMS TimeTable Management System</h2>
+                                <p class="card-text">A basic dbms project to create, manage and remove student teacher schedule data.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </body>
 </html>
