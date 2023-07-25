@@ -1,4 +1,7 @@
 # Hey Stalker, welcome to the source code of the Cyberus Website!
+> **Note**: I'm currently studying JavaScript Programming!
+
+
 This is more of a portofolio site which I will be building from scratch using Javascript right from the basic html, css.
 
 
